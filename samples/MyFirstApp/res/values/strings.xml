@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_AddItemText">Add New Item</string>
+    <string name="button_ManageItemText">Manage Items</string>
+    <string name="button_SettingsText">Settings</string>
+    <string name="done_text">Done</string>
+    <string name="app_header_text">You Are Here!</string>
+    <string name="button_GoToHomeText">Return to Home</string>
+    <string name="no_Items_Message">There are no items to display.</string>
+    <string name="edit_item_prompt">Enter Item description here</string>
+    <string name="enable_gps_text">Enable GPS Tracking</string>
+    <string name="enable_snooze_text">Enable Snooze Mode</string>
+    <string name="snooze_timeout_text">Snooze time (in minutes)</string>
+    <string name="min_dist_alert">Minimum distance to alert</string>
+    <string name="button_save_settings_text">Save Settings</string>
+    <string name="zero_text">0</string>
+    <string name="empty_text"> </string>
+    
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+        
+        <TableRow>
+            <TextView 
+                android:text="@string/app_header_text"
+                android:textSize="40dip"
+                android:gravity="center_horizontal" />
+        </TableRow>
+        
+        <View
+	        android:layout_height="20dip"
+	        android:background="#FF909090" />
+        
+        <TableRow>
+            <Button android:id="@+id/button_AddItem"
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="@string/button_AddItemText"
+		        android:onClick="showAddItemScreen" />
+        </TableRow>
+        
+        <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+        
+        <TableRow>
+            <Button android:id="@+id/button_ManageItem"
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="@string/button_ManageItemText"
+		        android:onClick="showManageItemsScreen" />
+        </TableRow>
+        
+        <View
+        	android:layout_height="2dip"
+        	android:background="#FF909090" />
+        
+        <TableRow>
+            <Button android:id="@+id/button_Settings"
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:text="@string/button_SettingsText"
+		        android:onClick="showSettingsScreen" />
+        </TableRow>
+
+    </TableLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TableRow>
+        <EditText android:id="@+id/edit_item"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/edit_item_prompt" />
+    </TableRow>
+
+    <TableRow>
+        <DatePicker android:id="@+id/item_date_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false" />
+    </TableRow>
+        
+    <TableRow>
+        <Button
+            android:id="@+id/button_DoneAddItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="onAddItemClick"
+            android:text="@string/done_text" />
+    </TableRow>
+    
+    <View
+     android:layout_height="20dip"
+     android:background="#FF909090" />
+    
+    <TableRow>
+        <Button android:id="@+id/button_GoBackAddIt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	      	android:gravity="center_horizontal"
+	      	android:text="@string/button_GoToHomeText"
+	      	android:onClick="showHomeScreen" />
+    </TableRow>
+
+</TableLayout>
