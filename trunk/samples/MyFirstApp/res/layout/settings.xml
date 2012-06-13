@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/enable_gps_text"
+            android:padding="3dip" />
+        <CheckBox
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/enable_snooze_text"
+            android:padding="3dip" />
+        <CheckBox
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/snooze_timeout_text"
+            android:padding="3dip" />
+        <EditText android:id="@+id/edit_snooze_time"
+            android:gravity="right"
+            android:padding="3dip"
+            android:hint="@string/zero_text" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/min_dist_alert"
+            android:padding="3dip" />
+        <EditText android:id="@+id/edit_min_dist"
+            android:gravity="right"
+            android:padding="3dip"
+            android:hint="@string/zero_text" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/empty_text"
+            android:padding="3dip" />
+        <Button android:id="@+id/button_SaveAndExit"
+            android:gravity="right"
+            android:text="@string/button_save_settings_text"
+	      	android:onClick="saveSettingsAndReturnHome" />
+    </TableRow>
+
+</TableLayout>
